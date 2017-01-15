@@ -1,6 +1,44 @@
+/*Media Query*/
 #srch {
 	text-align: center;
 	margin:auto;
 	padding-top:200px;
 	padding-bottom:20px;
 }
+#srch input{
+	width:300px;
+}
+
+#sbm1 {
+	margin-right:2%;
+}
+@media screen and (min-width: 1070px) {
+#sbtn {
+	margin-left:42%;
+}
+
+}
+@media screen and (max-width: 430px) {
+
+#sbtn {
+	margin-left:20%;
+}
+}
+@media screen and (min-width: 431px) and (max-width:679px) {
+#sbtn {
+	margin-left:28%;
+}
+}
+@media screen and (min-width: 680px) and (max-width:800px) {
+
+#sbtn {
+	margin-left:35%;
+}
+}
+@media screen and (min-width: 801px) and (max-width:1069px) {
+
+#sbtn {
+	margin-left:39%;
+}
+}
+
