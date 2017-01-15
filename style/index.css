@@ -2,8 +2,11 @@
 #srch {
 	text-align: center;
 	margin:auto;
-	padding-top:200px;
+	/*padding-top:200px;*/
 	padding-bottom:20px;
+}
+h2 {
+	text-align:center;
 }
 #srch input{
 	width:300px;
