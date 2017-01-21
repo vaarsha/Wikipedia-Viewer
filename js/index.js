@@ -20,7 +20,7 @@ console.log(data);
 function search() {
 	var vl = $('#ipt').val();
 	$.get('https://en.wikipedia.org/w/api.php?action=opensearch&search=' + vl + '&limit=5&namespace=0&format=json', function( data ) {
-		console.log(data[1]);
+		DisplayResult(data);
 	}, "jsonp" );
 }
 
