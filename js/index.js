@@ -8,7 +8,6 @@ function search() {
 	$.get('https://en.wikipedia.org/w/api.php?action=opensearch&search=' + vl + '&limit=5&namespace=0&format=json', function( data ) {
 		tags = data[1];
 		console.log(data[1]);
-		document.getElementById("output").innerHTML="hello";
 	}, "jsonp" );
 }
 
