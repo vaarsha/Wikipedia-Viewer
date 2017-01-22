@@ -10,10 +10,10 @@ function DisplayResult(data) {
 		name = data[1][i];
 		cont = data[2][i];
 		link = data[3][i];
-		result ='<a href="'+link+'" target="_blank" id="lk">';
+		result ='<a href="'+link+'" target="_blank" id="lk"><div class="one">';
 		result += "<h3>"+name+"</h3>";
 		result+='<p id="pid">'+cont+'</p>';
-		result +='</a>';
+		result +='</div></a>';
 		$("#rs").append(result);
 	}
 	$("footer").before("<hr>");
