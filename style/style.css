@@ -37,7 +37,9 @@ h3 {
 }
 hr {
 	border:2px solid #fff;
-	margin:0px;
+	margin:0;
+	width: 85em;
+	margin-left: -1em;
 }
 footer a {
 	text-decoration: none;
