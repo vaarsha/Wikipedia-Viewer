@@ -1,6 +1,10 @@
 body {
 	background-color: yellow;
 }
+button {
+	opacity:0.8;
+	color: #000;
+}
 button:hover {
 	opacity:1;
 	background-color:#E4E3CF;
