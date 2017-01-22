@@ -14,6 +14,12 @@ button:hover {
 	width:6em;
 	height:2em; 
 }
+.one {
+	background-color:#FCFAF1;
+}
+.one:hover {
+	border-left:3px solid #000;
+}
 hr {
 	border:2px solid #fff;
 	margin:0px;
