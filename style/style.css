@@ -1,6 +1,10 @@
 body {
 	background-color: yellow;
 }
+h2{
+	font-family: 'Lora', serif;
+	font-size:50px;
+}
 button {
 	opacity:0.8;
 	color: #000;
