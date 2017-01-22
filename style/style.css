@@ -1,3 +1,6 @@
-footer a{
+body {
+	background-color: yellow;
+}
+footer a {
 	text-decoration: none;
 }
