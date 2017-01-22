@@ -41,6 +41,11 @@ hr {
 	width: 85em;
 	margin-left: -1em;
 }
+footer {
+	margin: 0;
+	font-size: 20px;
+	padding-top:1em;
+}
 footer a {
 	text-decoration: none;
 }
