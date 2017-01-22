@@ -8,6 +8,7 @@ h2{
 button {
 	opacity:0.8;
 	color: #000;
+	font-family: 'Trocchi', serif;
 }
 button:hover {
 	opacity:1;
