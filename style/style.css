@@ -50,6 +50,7 @@ footer {
 footer a {
 	text-decoration: none;
 	color: black;
+	font-family: 'Pacifico', cursive;
 }
 footer a:hover {
 	color: #ec7d1f;
